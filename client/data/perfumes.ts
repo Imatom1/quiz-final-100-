@@ -25,7 +25,7 @@ export interface Perfume {
 
 // Standard Golden Aroma pricing
 export const standardSizes: PerfumeSize[] = [
-  { size: "30ml", price: 29.99 },
+  { size: "30ml", price: 34.99 },
   { size: "50ml", price: 44.99 },
   { size: "100ml", price: 69.99 },
 ];
