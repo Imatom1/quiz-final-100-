@@ -57,7 +57,7 @@ export const perfumes: Perfume[] = [
     description:
       "A luminous and sophisticated fragrance inspired by the iconic Baccarat Rouge 540.",
     sizes: [
-      { size: "30ml", price: 29.99, originalPrice: 200 },
+      { size: "30ml", price: 34.99, originalPrice: 200 },
       { size: "50ml", price: 44.99, originalPrice: 295 },
       { size: "100ml", price: 69.99, originalPrice: 425 },
     ],
