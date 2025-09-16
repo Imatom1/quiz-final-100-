@@ -605,10 +605,10 @@ export default function PerfumeMixer() {
 
                   {/* Blend Actions */}
                   {ingredients.length > 0 && (
-                    <div className="mt-1.5 space-y-1">
+                    <div className="mt-1.5 space-y-1 w-[500px] mx-auto">
                       {/* Blend Request Text */}
                       <div className="bg-black-800 border border-gold-300 rounded-lg p-2">
-                        <p className="text-xs font-medium text-gold-300 mb-1">
+                        <p className="text-lg font-semibold text-gold-300 mb-1 text-center">
                           Your Blend Request:
                         </p>
                         <div className="bg-black-700 border border-gray-200 rounded p-2 text-xs text-gold-400 font-mono whitespace-pre-line">
@@ -638,7 +638,7 @@ export default function PerfumeMixer() {
                             });
                         }}
                         variant="outline"
-                        className="w-full border-gold-400 text-gold-300 hover:bg-black-800 hover:text-white font-semibold text-xs h-7"
+                        className="w-full border-gold-400 text-gold-300 hover:bg-black-800 hover:text-white font-semibold text-base h-10"
                       >
                         <Copy className="w-3 h-3 mr-1" />
                         Copy Blend Request
@@ -646,7 +646,7 @@ export default function PerfumeMixer() {
 
                       {/* Instructions */}
                       <div className="bg-black-800 border border-black-700 rounded-lg p-2 mt-2">
-                        <p className="text-sm font-medium text-gold-300 text-center mb-1">
+                        <p className="text-lg font-semibold text-gold-300 text-center mb-1">
                           📋 How to Use Your Blend Request
                         </p>
                         <p className="text-xs text-gold-300 text-center">
@@ -923,6 +923,7 @@ export default function PerfumeMixer() {
                             );
 
                             setIngredients(balancedIngredients);
+                            window.scrollTo({ top: 0, behavior: "smooth" });
                           }}
                           showCompareButton={false}
                         />
