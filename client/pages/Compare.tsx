@@ -365,6 +365,7 @@ export default function Compare() {
                             onClick={(e) => {
                               if (comparisonList.length < 3) {
                                 addToComparison(perfume);
+                                window.scrollTo({ top: 0, behavior: "smooth" });
                               } else {
                                 handlePerfumeClick(perfume, e);
                               }
